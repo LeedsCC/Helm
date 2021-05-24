@@ -11,6 +11,7 @@ export const themeShortMenu = [
   { url: "/nhs-resources", label: "NHS Resources" },
   { url: "/leeds-information", label: "Leeds Information" },
   { url: "/about-me", label: "About Me" },
+  { url: "/observations", label: "Observations" },
 ]
 
 export const themeFullMenu = [
@@ -19,6 +20,7 @@ export const themeFullMenu = [
   { url: "/nhs-resources", label: "NHS Resources" },
   { url: "/leeds-information", label: "Leeds Information" },
   { url: "/about-me", label: "About Me" },
+  { url: "/observations", label: "Observations" },
 ]
 
 export const themeCommonElements = {

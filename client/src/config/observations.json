@@ -1,0 +1,101 @@
+{
+    "observations": [
+        {
+            "title": "Pulse",
+            "input": {
+                "definitions": [
+                    {
+                        "resourceType": "ObservationDefinition",
+                        "category": [{
+                            "coding": [{
+                                "system": "http://hl7.org/fhir/observation-category",
+                                "code": "vital-signs",
+                                "display": "Vital Signs"
+                            }]
+                        }],
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "364075005",
+                                    "display": "Heart rate"
+                                },
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8867-4"
+                                }
+                            ]
+                        },
+                        "permittedDataType": "integer",
+                        "quantitativeDetails": {
+                            "customaryUnit": {
+                                "coding": [
+                                    {
+                                        "system": "http://unitsofmeasure.org",
+                                        "unit": "/min"
+                                    }
+                                ]
+                            },
+                            "unit": {
+                                "coding": [
+                                    {
+                                        "system": "http://unitsofmeasure.org",
+                                        "unit": "/min"
+                                    }
+                                ]
+                            },
+                            "conversionFactor": 1,
+                            "decimalPrecision": 0
+                        }
+                    }
+                ]
+            },
+            "display": {
+                "definitions": [
+                    {
+                        "resourceType": "ObservationDefinition",
+                        "category": [{
+                            "system": "http://hl7.org/fhir/observation-category",
+                            "code": "vital-signs",
+                            "display": "Vital Signs"
+                        }],
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "364075005",
+                                    "display": "Heart rate"
+                                },
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8867-4"
+                                }
+                            ]
+                        },
+                        "permittedDataType": "integer",
+                        "quantitativeDetails": {
+                            "customaryUnit": {
+                                "coding": [
+                                    {
+                                        "system": "http://unitsofmeasure.org",
+                                        "unit": "/min"
+                                    }
+                                ]
+                            },
+                            "unit": {
+                                "coding": [
+                                    {
+                                        "system": "http://unitsofmeasure.org",
+                                        "unit": "/min"
+                                    }
+                                ]
+                            },
+                            "conversionFactor": 1,
+                            "decimalPrecision": 0
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

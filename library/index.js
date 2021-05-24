@@ -54,6 +54,11 @@ function getManifest(env) {
                 metadataPath: "",
                 tagName: "helm-questionnaire-component",
             },
+            ObservationComponent: {
+                webpackPath: "./src/components/CustomElements/ObservationComponent.js",
+                metadataPath: "",
+                tagName: "helm-observations",
+            },
         },
         libraries,
     }

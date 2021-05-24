@@ -157,7 +157,7 @@ services:
 
   helm-yhcr:
     build:
-      dockerfile: ./yhcr/YhcrDockerfile  
+      dockerfile: YhcrDockerfile  
       context: ./run/k8s/local
     ports:
       - 3443:443

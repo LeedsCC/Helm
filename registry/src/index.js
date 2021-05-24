@@ -24,6 +24,14 @@ app.post("/registry/search", (req, res) => {
                 panelPath: `/QuestionnaireComponent.js`,
                 panelName: "questionnaire-panel",
             },
+            {
+                id: "2",
+                libraryId: "1",
+                panelTag: "helm-observations",
+                libraryRoot: "http://localhost:8881",
+                panelPath: `/ObservationComponent.js`,
+                panelName: "observations-panel",
+            },
         ],
     }
 

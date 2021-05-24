@@ -8,6 +8,7 @@ import Directory from "../pages/Directory"
 // NHS WIDGETS
 import NhsWidgets from "../plugins/NhsWidgets/NhsWidgets"
 import AboutMe from "../plugins/AboutMe/AboutMe"
+import Observations from "../plugins/Observations/Observations"
 
 export default [
   {
@@ -24,5 +25,10 @@ export default [
     name: "about-me",
     label: "About Me",
     list: AboutMe,
+  },
+  {
+    name: "observations",
+    label: "Observations",
+    list: Observations,
   },
 ]

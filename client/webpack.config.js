@@ -78,6 +78,7 @@ module.exports = (env) => {
             { from: "./src/index.html", to: "" },
             { from: "./importmap.json", to: "" },
             { from: "./importmapie.json", to: "" },
+            { from: "./src/config/observations.json", to: "" },
             // ###ADD JSON FILE for configuration for each observation
           ],
         }),
